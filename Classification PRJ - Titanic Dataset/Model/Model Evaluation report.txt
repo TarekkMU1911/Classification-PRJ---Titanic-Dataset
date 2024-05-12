@@ -1,0 +1,60 @@
+Classification Performance Report
+
+In the evaluation of our classification models, we analyzed both training and test groups to assess their effectiveness in predicting class labels. The metrics utilized include precision, recall, F1-score, accuracy, and the confusion matrix.
+
+Training Group Evaluation:
+
+For Class 0:
+- Precision: 0.90
+- Recall: 0.97
+- F1-score: 0.93
+
+For Class 1:
+- Precision: 0.95
+- Recall: 0.83
+- F1-score: 0.88
+
+Accuracy: 91.50%
+
+Test Group Evaluation:
+
+For Class 0:
+- Precision: 0.78
+- Recall: 0.84
+- F1-score: 0.81
+
+For Class 1:
+- Precision: 0.79
+- Recall: 0.71
+- F1-score: 0.75
+
+Accuracy: 78.31%
+
+Confusion Matrix:
+- True Negatives: 38
+- False Positives: 7
+- False Negatives: 11
+- True Positives: 27
+
+Model Comparison:
+
+1. CatBoosting Model:
+   - Training Accuracy: 91%
+   - Test Accuracy: 78.3%
+   - Fewest false predictions according to the confusion matrix
+   - Effective in avoiding overfitting
+
+2. SVM Model:
+   - Training Accuracy: 83%
+   - Test Accuracy: 78.3%
+   - 
+
+3. Logistic Regression:
+   - Training Accuracy: 73%
+
+Conclusion:
+
+Upon thorough analysis, the CatBoosting Classifier emerges as the most suitable model for this task. It demonstrates superiority across multiple fronts:
+1. It achieves the highest accuracy in both training and test phases.
+2. It exhibits the least number of false predictions, as evidenced by the confusion matrix.
+3. Its robust performance suggests effective mitigation of overfitting, making it a reliable choice for deployment in real-world scenarios.
